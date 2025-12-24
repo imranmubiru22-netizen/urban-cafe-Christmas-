@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Cafe | Merry Christmas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#b30000,#0b5d1e);
+    color:#fff;
+    text-align:center;
+}
+header{
+    padding:50px 20px;
+    animation:fadeIn 2s ease;
+}
+h1{
+    font-size:3rem;
+    color:#ffd700;
+}
+h2{
+    font-weight:300;
+}
+.message{
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+    font-size:1.1rem;
+    line-height:1.8;
+    animation:slideUp 2s ease;
+}
+.foods{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:50px 0;
+}
+.food{
+    background:rgba(255,255,255,0.15);
+    padding:20px 25px;
+    border-radius:15px;
+    font-size:1.2rem;
+    animation:float 3s infinite ease-in-out;
+}
+.food:nth-child(2){animation-delay:.4s}
+.food:nth-child(3){animation-delay:.8s}
+.food:nth-child(4){animation-delay:1.2s}
+
+footer{
+    background:rgba(0,0,0,.35);
+    padding:35px 20px;
+}
+.contact{
+    font-size:1.2rem;
+    color:#ffd700;
+}
+
+@keyframes fadeIn{
+    from{opacity:0}
+    to{opacity:1}
+}
+@keyframes slideUp{
+    from{transform:translateY(40px);opacity:0}
+    to{transform:translateY(0);opacity:1}
+}
+@keyframes float{
+    0%,100%{transform:translateY(0)}
+    50%{transform:translateY(-10px)}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎄 Merry Christmas from Urban Cafe 🎄</h1>
+    <h2>Where great food meets warm moments</h2>
+</header>
+
+<section class="message">
+    <p>
+        To our amazing customers, you are truly special to us.
+        This festive season, we want to say a heartfelt <strong>thank you</strong>
+        for choosing Urban Cafe.
+    </p>
+
+    <p>
+        Your trust and support mean everything to us.
+        As you celebrate Christmas, trust us with your orders —
+        from delicious chicken and crispy chips to rich coffee and refreshing drinks.
+    </p>
+
+    <p>
+        We are deeply grateful to serve such wonderful customers.
+        You are the heart of Urban Cafe.
+    </p>
+</section>
+
+<section class="foods">
+    <div class="food">🍗 Chicken</div>
+    <div class="food">🍟 Chips</div>
+    <div class="food">☕ Coffee</div>
+    <div class="food">🥤 Drinks</div>
+</section>
+
+<footer>
+    <p class="contact">
+        📞 Deliveries & Orders: +256 776 811 844
+    </p>
+    <p>
+        Thank you for trusting Urban Cafe this festive season.
+        We wish you a joyful Christmas and a delicious New Year ❤️
+    </p>
+</footer>
+
+</body>
+</html>
